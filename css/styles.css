@@ -1,0 +1,304 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    color: #00a8ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #2c2c2c;
+    padding: 20px 0;
+    text-align: center;
+    background-position: center;
+}
+
+header .logo img {
+    max-width: 800px; /*Tamaño de la imagen*/
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centra los elementos del menú */
+}
+
+nav ul li {
+    display: inline-block; /* Muestra los elementos en línea */
+    margin: 0 10px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #00a8ff;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+section h1, section h2, section h3 {
+    color: #00a8ff;
+}
+
+section#inicio {
+    text-align: center;
+    background-color: #333;
+    padding: 60px 20px;
+}
+
+section#inicio h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section#inicio p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section#juegos {
+    text-align: center; /* Centra los juegos */
+}
+
+section#juegos .juego {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    display: inline-block; /* Muestra los juegos en línea */
+    margin: 10px; /* Espacio entre juegos */
+    vertical-align: top; /* Alinea los juegos en la parte superior */
+}
+
+section#juegos .juego img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+section#juegos .juego h3 {
+    margin: 15px 0 10px;
+}
+
+section#juegos .juego p {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+section#noticias {
+    background-color: #333;
+}
+
+section#noticias article {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section#noticias article h3 {
+    margin-top: 0;
+}
+
+section#noticias article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00a8ff;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #2c2c2c;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .redes-sociales {
+    margin-bottom: 10px;
+}
+
+footer .redes-sociales a {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+footer .politicas {
+    margin-bottom: 10px;
+}
+
+footer .politicas a {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+section#blog .entrada img {  /*Imagenes del blog*/
+    max-width: 30%;
+    border-radius: 40px;
+}
+
+section#destacados .destacado img {  /*Imagenes del podcast*/
+    max-width: 50%;
+    border-radius: 40px;
+
+}
+
+
+/* Estilos para la sección de la tienda */
+section#tienda {
+    padding: 40px 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+section#tienda h2 {
+    color: #00a8ff;
+    margin-bottom: 30px;
+}
+
+section#tienda .juegos {
+    text-align: center;
+}
+
+section#tienda .juego {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: inline-block; 
+    margin: 10px;
+    vertical-align: top;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+section#tienda .juego:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+section#tienda .juego img {
+    max-width: 100%; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+section#tienda .juego h3 {
+    color: #00a8ff;
+    margin-top: 0;
+}
+
+section#tienda .juego p {
+    color: #cccccc;
+    font-size: 14px;
+}
+
+section#tienda .juego .precio {
+    color: #00ff88;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.boton-tienda {
+    background-color: #00a8ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.boton-tienda:hover {
+    background-color: #0077cc;
+    text-decoration: none;
+}
+
+/* Post 2 */
+
+.novedades-grid {
+    display: grid;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.novedad-card {
+    background: #2c2c2c;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.novedad-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.novedad-content {
+    padding: 20px;
+}
+
+.temporada-trailer {
+    text-align: center;
+    padding: 50px 20px;
+    background: #1a1a1a;
+}
+
+.producto-container {
+    background-color: #2c2c2c;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.producto-imagen {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 3px solid #00a8ff;
+    margin: 20px auto;
+    display: block;
+}
+.especificaciones {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+.precio {
+    color: #00ff88;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+}
